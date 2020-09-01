@@ -6,10 +6,19 @@
     <description>Recent content in Cheatsheets on Fabio Fontana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://fabifont.github.io/cheatsheets/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Links</title>
+      <link>https://fabifont.github.io/cheatsheets/links/</link>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabifont.github.io/cheatsheets/links/</guid>
+      <description>Economy and investments  FIRE: Financial Indipendence and Early Retirement MMM: Mr. Money Mustache  Computer science  Stanford Engineering Everywhere MIT OpenCourseWare Coding Interview University Open Source Society University Awesome CS Courses Everything Computer Science Papers we love From @rcastellotti:  The Missing Semester of Your CS Education    Programming  FreeCodeCamp:  Website Youtube Github   Free Programming Books Awesome cheatsheets Codecademy  Webdev  From @rcastellotti:  A collection of free single-purpose online tools for web developers    </description>
+    </item>
     
     <item>
       <title>Git</title>
