@@ -6,10 +6,15 @@
     <description>Recent content on Fabio Fontana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Sep 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://fabifont.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fabifont.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Download packages with systemd-timer</title>
+      <link>https://fabifont.github.io/cheatsheets/download/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabifont.github.io/cheatsheets/download/</guid>
+      <description>download.service (/etc/systemd/system/download.service) [Unit] Description=Download packages Wants=network-online.target After=network-online.target [Service] User=root Type=oneshot ExecStart=/bin/pacman -Syuw --noconfirm [Install] WantedBy=multi-user.target download.timer (/etc/systemd/system/download.timer) [Unit] Description=Run download.service hourly and on boot Requires=download.service [Timer] Unit=download.service OnBootSec=10s OnUnitActiveSec=1h [Install] WantedBy=timers.target Reload daemons and enable/start the timer  systemctl daemon-reload systemctl enable download.timer systemctl start download.timer  </description>
+    </item>
     
     <item>
       <title>Links</title>
