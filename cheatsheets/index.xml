@@ -6,7 +6,25 @@
     <description>Recent content in Cheatsheets on Fabio Fontana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fabifont.github.io/cheatsheets/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fabifont.github.io/cheatsheets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch (btrfs &#43; luks &#43; systemd-boot) installation</title>
+      <link>https://fabifont.github.io/cheatsheets/arch/</link>
+      <pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabifont.github.io/cheatsheets/arch/</guid>
+      <description>THIS IS NOT A GUIDE. IT&amp;rsquo;S JUST A PERSONAL CHEATSHEET.YOU SHOULD FOLLOW THE ARCH WIKI.Check EFI mode # ls /sys/firmware/efi/efivars
+General Configure time:
+timedatectl set-ntp true
+Partitioning We assume that we install Arch on /dev/nvme0n1.
+# gdisk /dev/nvme0n1
+Create a new partition table:
+Command (? for help): o
+Create an EFI partition (choose size 550M and hex code EF00):
+Command (? for help): n
+Create a root partition (adopt the default values):</description>
+    </item>
+    
     <item>
       <title>Download packages with systemd-timer</title>
       <link>https://fabifont.github.io/cheatsheets/download/</link>
