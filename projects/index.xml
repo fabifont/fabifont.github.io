@@ -6,23 +6,15 @@
     <description>Recent content in Projects on Fabio Fontana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fabifont.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fabifont.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Project 0</title>
-      <link>https://fabifont.github.io/projects/project0/</link>
-      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      <title>fixcom</title>
+      <link>https://fabifont.github.io/projects/fixcom/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://fabifont.github.io/projects/project0/</guid>
-      <description>THIS IS A TEST </description>
-    </item>
-    
-    <item>
-      <title>Project 1</title>
-      <link>https://fabifont.github.io/projects/project1/</link>
-      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fabifont.github.io/projects/project1/</guid>
-      <description>THIS IS A TEST </description>
+      <guid>https://fabifont.github.io/projects/fixcom/</guid>
+      <description>Overview fixcom is a tool written in python to format comments as you like.
+Source code You can contribute here: https://github.com/fabifont/fixcom</description>
     </item>
     
   </channel>

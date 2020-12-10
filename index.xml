@@ -6,7 +6,17 @@
     <description>Recent content on Fabio Fontana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fabifont.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://fabifont.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fixcom</title>
+      <link>https://fabifont.github.io/projects/fixcom/</link>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://fabifont.github.io/projects/fixcom/</guid>
+      <description>Overview fixcom is a tool written in python to format comments as you like.
+Source code You can contribute here: https://github.com/fabifont/fixcom</description>
+    </item>
+    
     <item>
       <title>Arch (btrfs &#43; luks &#43; systemd-boot) installation</title>
       <link>https://fabifont.github.io/cheatsheets/arch/</link>
@@ -60,24 +70,6 @@ Create a root partition (adopt the default values):</description>
       <guid>https://fabifont.github.io/cheatsheets/packages/</guid>
       <description>Minimal (post DE installation) code firefox gnome-keyring htop inkscape latexdraw latex-mathabx latex-pgfplots neofetch okular qemu simplescreenrecorder spectacle telegram-desktop texlive-bibtexextra texlive-fontsextra texlive-latexextra texlive-science
 Full ark base bashtop bitwarden-bin bluedevil bluez-utils breeze-gtk clang cmatrix code dhcpcd discord discover dolphin dpkg drkonqi firefox geckodriver gnome-keyring gotop-bin gparted handbrake heroku-cli htop inkscape intel-ucode iwd kate kcalc kdeconnect kde-gtk-config kdenlive kdeplasma-addons kgamma5 khotkeys kinfocenter konsole kscreen ksshaskpass ktorrent kwallet-pam kwayland-integration kwrited latexdraw latex-mathabx latex-pgfplots lib32-gcc-libs liburcu libvncserver linux linux-firmware lsd lsof man-db man-pages minted mongodb-bin mongodb-compass mumble nano neofetch nerd-fonts-complete nnn okular olive openresolv oxygen pavucontrol peek pinta plasma5-applets-virtual-desktop-bar-git plasma-browser-integration plasma-desktop plasma-nm plasma-pa plasma-sdk plasma-thunderbolt plasma-vault plasma-workspace-wallpapers powerdevil pulseaudio-alsa pulseaudio-bluetooth python-pip python-pywal python-selenium python-telethon qemu reflector remmina rhino screenfetch sddm-kcm simplescreenrecorder spectacle speedtest-cli spotify teams teamviewer telegram-desktop termdown texlive-bibtexextra texlive-fontsextra texlive-kbordermatrix texlive-science tigervnc ttf-meslo ttf-roboto-mono typora ufetch-git user-manager vlc webcamoid wget whatsapp-nativefier wireguard-tools xdg-desktop-portal-kde yay zsh-autosuggestions zsh-completions zsh-syntax-highlighting zsh-theme-powerlevel10k </description>
-    </item>
-    
-    <item>
-      <title>Project 0</title>
-      <link>https://fabifont.github.io/projects/project0/</link>
-      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fabifont.github.io/projects/project0/</guid>
-      <description>THIS IS A TEST </description>
-    </item>
-    
-    <item>
-      <title>Project 1</title>
-      <link>https://fabifont.github.io/projects/project1/</link>
-      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://fabifont.github.io/projects/project1/</guid>
-      <description>THIS IS A TEST </description>
     </item>
     
     <item>

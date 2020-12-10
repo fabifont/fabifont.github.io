@@ -3,17 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://fabifont.github.io/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fabifont.github.io/projects/fixcom/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fabifont.github.io/projects/</loc>
+    <lastmod>2020-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fabifont.github.io/cheatsheets/arch/</loc>
     <lastmod>2020-11-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://fabifont.github.io/cheatsheets/</loc>
-    <lastmod>2020-11-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fabifont.github.io/</loc>
     <lastmod>2020-11-08T00:00:00+00:00</lastmod>
   </url>
   
@@ -35,21 +45,6 @@
   <url>
     <loc>https://fabifont.github.io/cheatsheets/packages/</loc>
     <lastmod>2020-08-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fabifont.github.io/projects/project0/</loc>
-    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fabifont.github.io/projects/project1/</loc>
-    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fabifont.github.io/projects/</loc>
-    <lastmod>2020-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
