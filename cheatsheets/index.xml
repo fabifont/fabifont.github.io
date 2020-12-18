@@ -49,7 +49,7 @@ Create a root partition (adopt the default values):</description>
       <pubDate>Thu, 27 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://fabifont.github.io/cheatsheets/git/</guid>
-      <description>Untrack files already added to git repository based on .gitignore  commit and push all git rm -r --cached .  rm is the remove command -r will allow recursive removal –cached will only remove files from the index. Your files will still be there. The . indicates that all files will be untracked. You can untrack a specific file with git rm --cached foo.txt   git commit -m &amp;quot;.</description>
+      <description>Clean history Without submodules  cd repo rm -rf .git git init -b master git add . git commit -m &amp;quot;Initial commit&amp;quot; git remote add origin git@github.com:&amp;lt;YOUR ACCOUNT&amp;gt;/&amp;lt;YOUR REPO&amp;gt;.git git push -u --force origin master  With submodules  git checkout --orphan newBranch git add -A add all files and commit them git commit git branch -D master delete the master branch git branch -m master rename the current branch to master git push -f origin master force push master branch git gc --aggressive --prune=all remove the old files  Untrack files already added to git repository based on .</description>
     </item>
     
     <item>

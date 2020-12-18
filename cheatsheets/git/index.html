@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="Fabio Fontana ">
-<meta name="description" content="Untrack files already added to git repository based on .gitignore  commit and push all git rm -r --cached .  rm is the remove command -r will allow recursive removal –cached will only remove files from the index. Your files will still be there. The . indicates that all files will be untracked. You can untrack a specific file with git rm --cached foo.txt   git commit -m &amp;quot;." />
-<meta name="descriptionExtra" content="Untrack files already added to git repository based on .gitignore  commit and push all git rm -r --cached .  rm is the remove command -r will allow recursive removal –cached will only remove files from the index. Your files will still be there. The . indicates that all files will be untracked. You can untrack a specific file with git rm --cached foo.txt   git commit -m &amp;quot;." />
+<meta name="description" content="Clean history Without submodules  cd repo rm -rf .git git init -b master git add . git commit -m &amp;quot;Initial commit&amp;quot; git remote add origin git@github.com:&amp;lt;YOUR ACCOUNT&amp;gt;/&amp;lt;YOUR REPO&amp;gt;.git git push -u --force origin master  With submodules  git checkout --orphan newBranch git add -A add all files and commit them git commit git branch -D master delete the master branch git branch -m master rename the current branch to master git push -f origin master force push master branch git gc --aggressive --prune=all remove the old files  Untrack files already added to git repository based on ." />
+<meta name="descriptionExtra" content="Clean history Without submodules  cd repo rm -rf .git git init -b master git add . git commit -m &amp;quot;Initial commit&amp;quot; git remote add origin git@github.com:&amp;lt;YOUR ACCOUNT&amp;gt;/&amp;lt;YOUR REPO&amp;gt;.git git push -u --force origin master  With submodules  git checkout --orphan newBranch git add -A add all files and commit them git commit git branch -D master delete the master branch git branch -m master rename the current branch to master git push -f origin master force push master branch git gc --aggressive --prune=all remove the old files  Untrack files already added to git repository based on ." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <meta name="theme-color" content="#252627" />
@@ -43,10 +43,10 @@
 
 
 <meta itemprop="name" content="Git">
-<meta itemprop="description" content="Untrack files already added to git repository based on .gitignore  commit and push all git rm -r --cached .  rm is the remove command -r will allow recursive removal –cached will only remove files from the index. Your files will still be there. The . indicates that all files will be untracked. You can untrack a specific file with git rm --cached foo.txt   git commit -m &quot;.">
+<meta itemprop="description" content="Clean history Without submodules  cd repo rm -rf .git git init -b master git add . git commit -m &quot;Initial commit&quot; git remote add origin git@github.com:&lt;YOUR ACCOUNT&gt;/&lt;YOUR REPO&gt;.git git push -u --force origin master  With submodules  git checkout --orphan newBranch git add -A add all files and commit them git commit git branch -D master delete the master branch git branch -m master rename the current branch to master git push -f origin master force push master branch git gc --aggressive --prune=all remove the old files  Untrack files already added to git repository based on .">
 <meta itemprop="datePublished" content="2020-08-27T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-08-27T00:00:00+00:00" />
-<meta itemprop="wordCount" content="100">
+<meta itemprop="wordCount" content="186">
 <meta itemprop="image" content="https://fabifont.github.io"/>
 
 
@@ -57,12 +57,12 @@
 <meta name="twitter:image" content="https://fabifont.github.io"/>
 
 <meta name="twitter:title" content="Git"/>
-<meta name="twitter:description" content="Untrack files already added to git repository based on .gitignore  commit and push all git rm -r --cached .  rm is the remove command -r will allow recursive removal –cached will only remove files from the index. Your files will still be there. The . indicates that all files will be untracked. You can untrack a specific file with git rm --cached foo.txt   git commit -m &quot;."/>
+<meta name="twitter:description" content="Clean history Without submodules  cd repo rm -rf .git git init -b master git add . git commit -m &quot;Initial commit&quot; git remote add origin git@github.com:&lt;YOUR ACCOUNT&gt;/&lt;YOUR REPO&gt;.git git push -u --force origin master  With submodules  git checkout --orphan newBranch git add -A add all files and commit them git commit git branch -D master delete the master branch git branch -m master rename the current branch to master git push -f origin master force push master branch git gc --aggressive --prune=all remove the old files  Untrack files already added to git repository based on ."/>
 
 
 
     <meta property="og:title" content="Git" />
-<meta property="og:description" content="Untrack files already added to git repository based on .gitignore  commit and push all git rm -r --cached .  rm is the remove command -r will allow recursive removal –cached will only remove files from the index. Your files will still be there. The . indicates that all files will be untracked. You can untrack a specific file with git rm --cached foo.txt   git commit -m &quot;." />
+<meta property="og:description" content="Clean history Without submodules  cd repo rm -rf .git git init -b master git add . git commit -m &quot;Initial commit&quot; git remote add origin git@github.com:&lt;YOUR ACCOUNT&gt;/&lt;YOUR REPO&gt;.git git push -u --force origin master  With submodules  git checkout --orphan newBranch git add -A add all files and commit them git commit git branch -D master delete the master branch git branch -m master rename the current branch to master git push -f origin master force push master branch git gc --aggressive --prune=all remove the old files  Untrack files already added to git repository based on ." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://fabifont.github.io/cheatsheets/git/" />
 <meta property="og:image" content="https://fabifont.github.io"/>
@@ -145,7 +145,28 @@
             
 
             <div class="post-content">
-                <h2 id="untrack-files-already-added-to-git-repository-based-on-gitignore">Untrack files already added to git repository based on .gitignore</h2>
+                <h2 id="clean-history">Clean history</h2>
+<h3 id="without-submodules">Without submodules</h3>
+<ul>
+<li><code>cd repo</code></li>
+<li><code>rm -rf .git</code></li>
+<li><code>git init -b master</code></li>
+<li><code>git add .</code></li>
+<li><code>git commit -m &quot;Initial commit&quot;</code></li>
+<li><code>git remote add origin git@github.com:&lt;YOUR ACCOUNT&gt;/&lt;YOUR REPO&gt;.git</code></li>
+<li><code>git push -u --force origin master</code></li>
+</ul>
+<h3 id="with-submodules">With submodules</h3>
+<ul>
+<li><code>git checkout --orphan newBranch</code></li>
+<li><code>git add -A</code> add all files and commit them</li>
+<li><code>git commit</code></li>
+<li><code>git branch -D master</code> delete the master branch</li>
+<li><code>git branch -m master</code> rename the current branch to master</li>
+<li><code>git push -f origin master</code> force push master branch</li>
+<li><code>git gc --aggressive --prune=all</code> remove the old files</li>
+</ul>
+<h2 id="untrack-files-already-added-to-git-repository-based-on-gitignore">Untrack files already added to git repository based on .gitignore</h2>
 <ul>
 <li>commit and push all</li>
 <li><code>git rm -r --cached .</code>
